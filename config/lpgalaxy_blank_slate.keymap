@@ -75,7 +75,7 @@ keymap {
             bindings = <
 
  &kp TAB    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         	&kp BKSP
- &kp ESC    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp LA(LS(LEFT)      &kp RET
+ &kp ESC    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &trans       &kp RET
  &mo SYM_L  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      	&mo NEN_L
  &mo MEN_L  &kp LCTRL  &kp RALT  &kp LGUI    &mo NUM_L      &kp LSHIFT      &kp SPACE        &mo NAV_L      &kp UP    &kp DOWN     &kp LEFT      	&kp RIGHT
 
