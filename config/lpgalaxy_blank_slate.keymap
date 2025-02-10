@@ -96,7 +96,7 @@ keymap {
             label = "Num";
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)   &kp LS(NUMBER_3)    &kp LS(NUMBER_4)      &kp LS(NUMBER_5)          &kp LS(NUMBER_6)   &kp LS(NUMBER_7)     &kp LS(NUMBER_8)   &kp LS(NUMBER_9)         kp LS(NUMBER_0)             &kp LS(MINUS)           &kp EQUAL 
-&trans  	  &trans 	     &trans     	 &trans      	       &trans                    &trans             &trans    	         &trans  	    &trans        	     &trans 		         &trans 		 &trans
+&kp GRAVE    	  &kp RA(NUMBER_8)   &kp RA(NUMBER_9)    &trans  &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_7)   &kp RA(NUMBER_0)     &trans  &kp RA(RIGHT_BRACKET)    &trans  &kp LS(RIGHT_BRACKET)     &kp RIGHT_BRACKET
 &trans     	  &trans   	     &trans  	         &trans    	       &trans       	         &trans	            &trans               &trans       	    &trans   	             &trans   	                 &kp LS(BACKSLASH)    	 &kp BACKSLASH
 &trans  	  &trans 	     &trans     	 &trans      	       &trans                    &trans             &trans    	         &trans  	    &trans        	     &trans 		         &trans 		 &trans
             >; 
