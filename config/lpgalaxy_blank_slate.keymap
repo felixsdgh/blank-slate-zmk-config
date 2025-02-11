@@ -97,7 +97,7 @@ keymap {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)   &kp LS(NUMBER_3)    &kp LS(NUMBER_4)      &kp LS(NUMBER_5)          &kp LS(NUMBER_6)   &kp LS(NUMBER_7)     &kp LS(NUMBER_8)   &kp LS(NUMBER_9)         &kp LS(NUMBER_0)             &kp LS(MINUS)           &kp EQUAL 
 &kp GRAVE    	  &kp RA(NUMBER_8)   &kp RA(NUMBER_9)    &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RA(NUMBER_7)   &kp RA(NUMBER_0)     &kp LS(BACKSLASH)  &kp RA(RIGHT_BRACKET)    &kp RA(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)     &kp RIGHT_BRACKET
-&trans     	  &trans   	     &trans  	         &trans    	       &trans       	         &trans	            &trans               &trans       	    &trans   	             &trans   	                 &trans     	         &trans 
+&trans     	  &trans   	     &trans  	         &trans    	       &trans       	         &trans	            &trans               &trans       	    &trans   	             &trans   	                 &trans     	         &kp HASH 
 &trans  	  &trans 	     &trans     	 &trans      	       &trans                    &trans             &trans    	         &trans  	    &trans        	     &trans 		         &trans 		 &trans
             >; 
         };  
