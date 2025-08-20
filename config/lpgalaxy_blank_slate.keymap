@@ -77,7 +77,7 @@ keymap {
  &kp TAB    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         	&kp BKSP
  &kp ESC    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp RA(LS(LEFT))     &kp RET
  &mo SYM_L  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      	&mo NEN_L
- &mo MEN_L  &kp LCTRL  &kp RALT  &kp LGUI    &mo NUM_L      &kp LSHIFT      &kp SPACE        &mo NAV_L      &kp UP    &kp DOWN     &kp LEFT      	&kp RIGHT
+ &mo MEN_L  &kp LCTRL  &kp LALT  &kp LGUI    &mo NUM_L      &kp LSHIFT      &kp SPACE        &mo NAV_L      &kp UP    &kp DOWN     &kp LEFT      	&kp RIGHT
 
             >;
         };
@@ -86,9 +86,9 @@ keymap {
             label = "Nav";
             bindings = <
 &kp NUMBER_1  	&kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8	&kp NUMBER_9      &kp NUMBER_0     &kp MINUS     &kp LEFT_BRACKET 
-&trans     	&trans     	 &trans     	  &trans     	    &trans            &trans           &trans           &trans       	&trans     	  &trans      	   &kp SEMICOLON   &kp SINGLE_QUOTE
+&kp RA(Q)     	&trans     	 &trans     	  &trans     	    &trans            &trans           &trans           &trans       	&trans     	  &trans      	   &kp SEMICOLON   &kp SINGLE_QUOTE
 &trans     	&trans   	 &trans  	  &trans    	    &trans            &trans	       &trans           &trans       	&trans   	  &trans   	   &kp UP    	 &trans
-&trans  	&trans 		 &kp LALT     	  &trans      	    &trans            &trans           &trans    	&trans  	&trans        	  &kp LEFT 	   &kp DOWN 	 &kp RIGHT
+&trans  	&trans 		 &kp RALT     	  &trans      	    &trans            &trans           &trans    	&trans  	&trans        	  &kp LEFT 	   &kp DOWN 	 &kp RIGHT
             >;
         };
 
