@@ -27,7 +27,16 @@
 #define BT(n) BT_SEL n
 
 / {
-    
+    chosen {
+       zmk,physical-layout =
+#ifdef TBLE_DUAL_2U
+                       &layout_ortho_4x12_2x2u;
+#elif defined(TBLE_MIT)
+                       &layout_ortho_4x12_1x2u;
+#else
+                       &layout_ortho_4x12_all1u;
+#endif
+    };
 
     macros {
       ZMK_MACRO(thumbs_up,
@@ -127,4 +136,3 @@ nen_layer {
 
     };
 };
-
